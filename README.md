@@ -45,14 +45,14 @@ You have to download or upload the [TuSimple](https://www.kaggle.com/datasets/ma
 
 ### Test 
 
-You can download the weights file UNET.h5 file and directly test it for predictions.  
+You can download the weights file Lane_Model_2.h5 file and directly test it for predictions.  
 
 Also find the inference.ipynb file which contained the testing or inference code.
 
 To test the code
 ```bash
   Download the inference_unet.ipynb file and load the model weights
-  UNET.h5 path  and provide the testing image path in the inference code. 
+  Lane_Model_2.h5 path  and provide the testing image path in the inference code. 
   By running the inference_unet.ipynb file you can visualize the plot of the predictions.
 ```
 
