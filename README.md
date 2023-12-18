@@ -13,7 +13,8 @@ The TuSimple dataset consists of 6,408 road images on US highways. The resolutio
 
 ## UNet Architecuture 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![unet](https://github.com/maheshmm7/Lane_Detection_using_UNet/assets/121345928/e4b5d95f-7bb1-4009-a0f0-cc6efdc3820e)
+
 
 ## Downloads :    
 Download the Full Dataset Here: [TuSimple](https://www.kaggle.com/datasets/manideep1108/tusimple)
@@ -57,7 +58,8 @@ To test the code
 
 ## METRICS VISUALIZATION
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![__results___21_0](https://github.com/maheshmm7/Lane_Detection_using_UNet/assets/121345928/1d451794-ec53-4659-b52f-134eca541314)
+
 
 The Above graph visualize the metrics during the training process, it shows the graph showing Training & Validation Loss and Training & Validation Accuracy with the staring value and ending value.  The graphs shows the gradual decrease in the loss function and gradual increase accuracy as shown in the visualization.
 
@@ -70,9 +72,11 @@ tensorboard --logdir=path/to/your/logs/directory
 After running the command, open your web browser and go to http://localhost:6006 to access the TensorBoard interface. You'll be able to navigate through the different tabs to explore the data recorded in the tensorboard v2 file.
 ## Predictions 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![output](https://github.com/maheshmm7/Lane_Detection_using_UNet/assets/121345928/d17f5a29-1755-408d-a9ea-a214620751e6)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![output_2](https://github.com/maheshmm7/Lane_Detection_using_UNet/assets/121345928/738d85e1-5903-460a-9038-cbfb74ac1a64)
+
+
 
 I tested the Predictions on the inference code by loading the saved .h5 weights file and testing it on the new images.  The model predictions came out to be good as shown in the figures.
 
